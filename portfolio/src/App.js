@@ -1,11 +1,11 @@
 
 
 import './App.css';
-import {Main} from './Components/Main/Main'
+import { Main } from './Components/Main/Main'
 
 const App = () => {
   return (
-    <div className = 'App'>
+    <div className='App'>
       <Main></Main>
     </div>
   )

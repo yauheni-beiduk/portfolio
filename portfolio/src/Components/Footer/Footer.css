@@ -1,5 +1,15 @@
 .footer-container {
-   height: 20%;
-    background-color: #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #ccc;
 }
 
+p {
+  margin: 0;
+}
+
+.footer-links a {
+  margin-left: 20px;
+}

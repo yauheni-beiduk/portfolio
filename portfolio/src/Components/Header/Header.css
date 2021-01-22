@@ -1,11 +1,39 @@
-    
-    
-.wrapper_header{
+.wrapper_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
 
-   display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
+.about_me {
+  color: #011c26;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  margin-left: 40px;
+}
 
+.icon-cv {
+  margin-right: 40px;
+  width: 80px;
+}
+
+.name {
+  font-size: 34px;
+}
+
+@media (max-width: 470px) {
+  .wrapper_header {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-cv {
+    margin-right: 0;
+  }
+
+  .name {
+    font-size: 30px;
+  }
 }
